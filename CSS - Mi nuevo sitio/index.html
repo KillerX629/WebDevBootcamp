@@ -10,18 +10,97 @@
 </head>
 <body>
     <div class="div1">
-        <img src="img/clouds.png" alt="cloud-img">
+        <img src="img/clouds.png" alt="cloud-img" class="im1" class="im2">
         <h1>I'm Pita</h1>
         <p>a Programmer.</p> 
-        <img src="img/clouds.png" alt="cloud2-img">
-        <img src="img/mountains.png" alt="mountain-img">
+        <img src="img/clouds.png" alt="cloud2-img" class="im1">
+        <img src="img/mountains.png" alt="mountain-img" class="im1">
     </div>
     <div class="divred">
-
     </div>
     <div class="divblue">
-        
     </div>
+    <div class="divyel">
+    </div>
+
+    <div class="topbar">
+        <p class="psearchbar">esto es una barra de búsqueda promedio (cuenta) (log-out)</p>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar a nisl vitae egestas. Maecenas ornare condimentum
+        augue. Sed bibendum euismod lacus eu efficitur. Donec quam tellus, congue sed sem venenatis, tempus elementum neque.
+        Phasellus vitae varius leo. Nulla rutrum enim ut dolor finibus dictum. Sed quis mi ut ipsum lacinia pretium sit amet et
+        leo.
+    </p>
+    <p>
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis sed placerat lacus. Nullam
+        ante ligula, auctor vitae consectetur sed, vehicula vel massa. Duis sodales lacus ut nisi dapibus, quis euismod erat
+        dictum. Sed id tempor lectus, sit amet volutpat eros. Nulla vestibulum pharetra felis, quis suscipit ipsum. Pellentesque
+        volutpat elit tortor, eget ullamcorper ex ullamcorper ut. In venenatis gravida ornare. Integer laoreet mi ac neque
+        interdum, quis rutrum enim tincidunt. Fusce vitae viverra tellus, at pellentesque nunc. In non imperdiet odio. Sed eget
+        vehicula nunc, ac molestie est. Vestibulum consectetur nunc ipsum, non consectetur turpis posuere quis. Donec commodo
+        elit eu tortor malesuada, vel ornare magna auctor. Etiam consequat felis non magna tristique facilisis.
+    </p>
+    <p>
+        Donec et eros id felis sodales maximus. In scelerisque cursus lacus non dapibus. Nam condimentum, justo ac gravida
+        semper, leo metus laoreet lacus, eu facilisis velit orci sit amet eros. Vivamus imperdiet turpis justo, in convallis
+        felis malesuada vitae. In ut diam ac ex malesuada varius in quis augue. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Cras efficitur viverra dictum. Vestibulum libero lacus, pulvinar quis tellus eu, laoreet hendrerit
+        erat. In hac habitasse platea dictumst. Nam hendrerit nisl quis tincidunt convallis. Curabitur eu lobortis turpis. Etiam
+        eleifend ornare augue eget sodales. Nam ultricies viverra laoreet. Mauris cursus semper massa. Sed sed leo vel nulla
+        gravida imperdiet.
+    </p>
+    <p>
+        Nullam pulvinar maximus ipsum, ut varius purus congue non. Aenean dignissim justo vel enim lacinia auctor. Curabitur
+        tempor tortor eu tristique pretium. Nam hendrerit rutrum enim, at pharetra mauris ultrices et. Praesent lobortis nibh
+        lorem, id convallis mi interdum sit amet. Curabitur cursus sapien in velit ultricies accumsan eget commodo libero.
+        Pellentesque a varius sem. Integer et volutpat orci. Praesent auctor condimentum nibh, in pulvinar nunc malesuada eu.
+        Duis venenatis, justo in ultrices faucibus, justo erat iaculis sapien, vel consectetur lectus tellus semper diam.
+        Vivamus cursus nulla ut leo pellentesque varius. Praesent dignissim tempor lorem.
+    </p>
+    <p>
+        Nullam maximus velit laoreet eros aliquam pharetra. Duis eget dolor pellentesque, rhoncus justo quis, imperdiet est. In
+        vel mi convallis, tristique leo sed, venenatis massa. Pellentesque sit amet arcu vulputate, placerat velit sit amet,
+        faucibus augue. Etiam in risus quam. Sed consectetur sem vitae lectus aliquam bibendum. Nunc eu sapien non elit
+        dignissim maximus id vitae dui. Nullam felis neque, cursus vitae nunc vel, accumsan egestas nunc.
+    </p>
 
 </body>
 </html>
+
+<!--
+    Lecciones:
+    display mode: permite definir el modo de visualizacion de un elemento,
+    un elemento con la propiedad display:none no se muestra en el navegador,
+    un elemento con display:block se muestra en el navegador, pero al final
+    inserta una rotura de linea, un elemento con display:inline se muestra
+    en el navegador, pero no inserta una rotura de linea, un elemento con
+    display:inline-block se muestra en el navegador, pero no inserta una
+    rotura de linea Y ADEMÁS, puede usarse de forma independiente
+    (los inline sin estar dentro de un elemento block no se muestran)
+    (a completar más adelante con más información).
+
+    position RELATIVE:
+    nos permite definir la posición de un elemento, dejandonos especificar márgenes,
+    ejemplo: si fuera a poner un div con position:relative, y le un valor de top:50px,
+    se correría 50px HACIA ABAJO! esto se debe a que lo que especificamos nosotros es
+    una especie de margen en la parte de arriba del elemento.
+    
+    position ABSOLUTE:
+    nos permite definir la posición de un elemento, dejandonos especificar márgenes que 
+    se aplicarán al elemento "padre" de este elemento, por ejemplo:
+    si fuera a poner un div con position:absolute, y le un valor de right:50px,
+    se correría 50px hacia la izquierda de la DERECHA DE TODO DEL ELEMENTO SUPERIOR JERARQUICAMENTE.
+    sigue siendo un márgen lo que especificamos nosotros, pero se aplica respecto a su superior 
+    inmediato.
+    otra consecuencia de la posición absoluta, es que altera el resto de elementos que estén en 
+    su mismo nivel jerárquico, si corro un div con posición absoluta hacia la derecha, un párrafo
+    que se encuentre abajo podría subir al mismo "reglón"
+
+    position FIXED:
+    Si ponemos a un elemento con posición fija, los margenes que definimos se aplican a la página
+    web en total, pero además, el elemento se mueve con la página web, un ejemplo son
+    los botones de atención al cliente, o la barra de arriba de una página web (que adentro
+    contiene el iconito de cuenta, la barra para buscar, etc).
+-->
