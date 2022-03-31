@@ -1,0 +1,41 @@
+/************************TAG SELECTOR************************/
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+img {
+    background-color: red;
+    width: 50%;
+    height: auto;
+}
+
+/************************CLASS SELECTOR************************/
+
+.Bacon{
+    background-color: blue;
+    width: 30%;
+    height: auto;
+}
+
+.eggplant{
+    background-color: purple;
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+.circular:hover{
+    background-color: gold;
+}
+
+/*las clases pueden repetirse en un documento*/
+
+/*se pueden aplicar MUCHAS CLASES A UN SOLO OBJETO*/
+/************************ID SELECTOR************************/
+#heading{
+    color: aqua;
+}
+/*la ID es un identificador UNIVOCO por documento*/
