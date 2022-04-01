@@ -11,53 +11,46 @@ body{
     margin: 0;
 }
 
+
+
 .div1{
     background-color: #F0A500 ;
     height: 100px;
-    margin-top: 0px;
-    display: none;
-}
-
-.divred{
-    background-color:red;
-    height: 200px;
-    margin-top: 0px;
-    position: absolute;
-    width: 200px;
-    left: 400px;
-    top: 400px;
-}
-
-.divblue{
-    background-color: blue;
-    height: 200px;
-    margin-top: 0px;
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 200px;
-}
-
-.divyel{
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
+    /*declaramos la alineación que queremos en el contenedor
+    padre*/
+    text-align: center;
+    /* funciona solo con los elementos inline-block*/
     
+    /*si especificamos un width 
+    en un elemento hijo, se deja de
+    aplicar la propiedad text-align*/
 }
+
+.pita{
+    margin-top: 0px;
+}
+/*
+.pita {
+    width: 50px;
+    /*si le dejamnos el width,
+    no va a estar centrado (por si solo)*/
+    /*
+    margin: 0 auto 0 auto;
+    */
+    /*podría ponerse equivalentemente:
+    margin: 0 auto;
+}
+    */
 
 .im1{
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
-.im2{
-    display: inline-block;
+
+.bottom-cloud{
+    position: absolute;
 }
-
-
 .topbar{
     background-color: fuchsia;
     height: 30px;
@@ -71,6 +64,13 @@ body{
 .psearchbar{
     height: 10px;
     margin: 2px;
+}
+
+
+
+
+.div2 {
+    display: none;
 }
 
 /*
@@ -127,4 +127,38 @@ body {
 
 .im2 {
     display: inline-block;
+*/
+
+
+/*
+.divred {
+    background-color: red;
+    height: 200px;
+    margin-top: 0px;
+    position: absolute;
+    width: 200px;
+    left: 400px;
+    top: 400px;
+}
+
+.divblue {
+    background-color: blue;
+    height: 200px;
+    margin-top: 0px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.divyel {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+
+}
+
 */
