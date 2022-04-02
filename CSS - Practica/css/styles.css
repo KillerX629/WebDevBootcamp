@@ -1,0 +1,35 @@
+body{
+    background-color: #D49B54;
+    margin: 0;
+}
+
+.searchbar{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #46244C;
+    position: fixed;
+}
+
+
+.sidebar-left{
+    display: block;
+    width: 200px;
+    height: 100%;
+    background-color:#C74B50;
+    position: fixed;
+    margin: 0 auto 0 0;
+    padding: 0;
+    border: 0 10px 0 0 solid green;
+    border-radius: 5px;
+}
+
+.snake{
+    width: inherit;
+    margin: 300px 0 auto 0;
+}
+.container{
+    display: inline-block;
+}

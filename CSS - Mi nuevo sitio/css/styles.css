@@ -3,55 +3,172 @@ h1{
     margin-top: 0%;
 }
 p{
-    color: white;
+    color: black;
 }
 
 body{
-    background-color: #1B1A17;
+    background-color: lightblue;
     margin: 0;
+    /*
+    font-family: verdana, sans-serif;
+    */
+    /*
+la linea de código anterior hace lo siguiente:
+    intenta buscar una fuente de letra que se llame verdana,
+    e intenta mostrar por pantalla el texto en esa fuente.
+    si no encuentra ninguna fuente de letra que se llame verdana,
+    entonces mostrará el texto en la familia de letras sans-serif
+    que venga instalada en el sistema del cliente,
+    e intenta mostrar por pantalla el texto en esa fuente.
+*/
+        font-family: 'BIZ UDMincho',
+        serif;
+        
+}
+
+.skilldiv{
+    margin: 150px auto 0 auto;
+    width: 50%;
+    
+    
+    text-align: center;
+    
+}
+.codepic{
+    width: 35%;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+.codep{
+    width: 50%;
+    display: inline-block;
+}
+codeh2{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.achievmentsdiv{
+    margin: 50px auto 0 auto;
+    width: 50%;
+    text-align: center;
 }
 
 
-
 .div1{
-    background-color: #F0A500 ;
-    height: 100px;
+    padding-top: 100px;
+    background-color: rgba(154, 240, 243, 0.699) ;
+    
+    position: relative;
     /*declaramos la alineación que queremos en el contenedor
     padre*/
+    
     text-align: center;
+    
     /* funciona solo con los elementos inline-block*/
     
     /*si especificamos un width 
     en un elemento hijo, se deja de
     aplicar la propiedad text-align*/
+    
 }
 
 .pita{
-    margin-top: 0px;
-}
-/*
-.pita {
-    width: 50px;
-    /*si le dejamnos el width,
-    no va a estar centrado (por si solo)*/
+    font-size: 5.625em;
+    /* 100% = 16px para h1
+        1em = 16px 
+    */
     /*
-    margin: 0 auto 0 auto;
+    la notación em y de porcentaje, es hereditaria.
+    si especifico un tamaño de 2 em en body
+    y luego en un elemento hijo aplico un tamaño de 
+    4 em, es multiplicativo con el 2 em anterior
+    es decir será 2*4 = 8 em
+    
+    para simplificar esto, existe OTRA notación
+    rem = root em = 16px
+    
+    si alteramos en un hijo el tamaño de fuente especificando
+    un tamaño de 2 rem, el tamaño de fuente será 2*16 = 32px
+    sin importar el tamaño en em del padre.
     */
-    /*podría ponerse equivalentemente:
-    margin: 0 auto;
+    
+    
+    
+    margin-top: 0px;
+    font-family: 'Send Flowers', cursive;
 }
-    */
+
 
 .im1{
     width: 150px;
     height: 100px;
 }
-
+.top-cloud{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -10px;
+}
 
 .bottom-cloud{
+    display: block;
     position: absolute;
+    margin: 0 0 500px 400px;
 }
-.topbar{
+
+
+.mountain{
+    width: 500px;
+    height: 350px;
+}
+
+
+.div2 {
+    display: none;
+}
+
+
+.pro{
+    text-decoration-line:underline;
+    /*
+    42px = 16px * 2
+    */
+    font-size: 2em;
+}
+
+.divred {
+    background-color: red;
+    height: 200px;
+    margin-top: 0px;
+    position: absolute;
+    width: 200px;
+    left: 400px;
+    top: 400px;
+}
+
+.divblue {
+    background-color: blue;
+    height: 200px;
+    margin-top: 0px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.divyel {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+
+}
+.topbar {
     background-color: fuchsia;
     height: 30px;
     width: 100%;
@@ -61,21 +178,25 @@ body{
     margin: 0;
 }
 
-.psearchbar{
+.psearchbar {
     height: 10px;
     margin: 2px;
 }
 
-
-
-
-.div2 {
-    display: none;
+/*
+.pita {
+    width: 50px;
+    /*si le dejamnos el width,
+    no va a estar centrado (por si solo)*/
+/*
+    margin: 0 auto 0 auto;
+    */
+/*podría ponerse equivalentemente:
+    margin: 0 auto;
 }
+    */
 
 /*
-
-
 h1 {
     color: #E45826;
     margin-top: 0%;
@@ -127,38 +248,4 @@ body {
 
 .im2 {
     display: inline-block;
-*/
-
-
-/*
-.divred {
-    background-color: red;
-    height: 200px;
-    margin-top: 0px;
-    position: absolute;
-    width: 200px;
-    left: 400px;
-    top: 400px;
-}
-
-.divblue {
-    background-color: blue;
-    height: 200px;
-    margin-top: 0px;
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 200px;
-}
-
-.divyel {
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-
-}
-
 */
